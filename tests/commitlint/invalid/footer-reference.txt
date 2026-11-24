@@ -1,0 +1,3 @@
+fix(profile): fix the repository table
+
+Closes #12
