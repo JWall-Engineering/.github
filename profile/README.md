@@ -10,16 +10,18 @@ Jaws's first customer.
 
 ### What's here, and what's coming
 
-The platform's configuration is moving into this organization from
-[`Jaws-Platform/jaws`](https://github.com/Jaws-Platform/jaws). When it lands,
-a `platform` repository will hold it, along with JWall Engineering's own image
-of Jaws and the workflows its projects call, and JWall Engineering will choose
-the Jaws release it runs.
+[`platform`](https://github.com/JWall-Engineering/platform) is the hub that
+takes the platform's configuration over from
+[`Jaws-Platform/jaws`](https://github.com/Jaws-Platform/jaws). Until the
+takeover, `jaws` holds and applies it. `platform` also holds JWall
+Engineering's own image of Jaws and the workflows its projects call, and
+JWall Engineering chooses the Jaws release it runs.
 
 ### Repositories
 
 | Repository | What it is |
 |---|---|
+| [`platform`](https://github.com/JWall-Engineering/platform) | JWall Engineering's platform: its configuration and datasets, its image of Jaws, the workflows its projects call, and the owner's folders |
 | [`jwall-engineering-branding`](https://github.com/JWall-Engineering/jwall-engineering-branding) | The wordmark and the JW monogram, the logo, the avatar, the README banner, the social preview, the favicons and the README header standard |
 
 ### GitHub Apps
@@ -27,6 +29,9 @@ the Jaws release it runs.
 | GitHub App | What it does |
 |---|---|
 | [`jwall-engineering-releases`](https://github.com/apps/jwall-engineering-releases) | Opens the Release Please pull requests, so CI runs on them |
+| [`jwall-engineering-comments`](https://github.com/apps/jwall-engineering-comments) | Posts the platform's plan and preview comments |
+| [`jwall-engineering-upgrades`](https://github.com/apps/jwall-engineering-upgrades) | Opens the pull request that upgrades the platform's Jaws release |
+| [`jwall-engineering-deployments`](https://github.com/apps/jwall-engineering-deployments) | Moves the platform's `live` branch to each release, and back on a rollback |
 
 ### How every repository works
 
