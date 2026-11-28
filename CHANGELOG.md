@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/JWall-Engineering/.github/compare/v0.1.0...v0.2.0) (2026-11-28)
+
+
+### Features
+
+* **profile:** add the platform repository and its apps ([#5](https://github.com/JWall-Engineering/.github/issues/5)) ([401fb81](https://github.com/JWall-Engineering/.github/commit/401fb81d3cff9ee9a161960f632d059bb8deae5f))
+
 ## 0.1.0 (2026-11-25)
 
 
